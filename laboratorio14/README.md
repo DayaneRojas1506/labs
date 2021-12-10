@@ -35,9 +35,9 @@ Xof rglx gz dvvqna d zfdxjef qln'x mjlx xof xqpf qx xdwfl xg rgvf qx. Xof rglx d
 ```
 Si se sabe que solo se han encriptado las letras del alfabeto (a - z).
 
-Para ello ordena las letras del mensaje encriptado de acuerdo al numero de veces que se repiten (de mayor a menor) y compáralo con la tabla de frecuencia de caracteres del lenguaje en que esta escrito este mensaje, que para este caso es:
+Para ello ordena las letras del mensaje encriptado de acuerdo al número de veces que se repiten (de mayor a menor) y compáralo con la tabla de frecuencia de carácteres del lenguaje en que esta escrito este mensaje, que para este caso es:
 
-`freqLang = "TEOAISRHNUCMDLGWFPYKJBVQX"` (de mas frecuente a menos frecuente)
+`freqLang = "TEOAISRHNUCMDLGWFPYKJBVQX"` (de más frecuente a menos frecuente)
 
 Uttilizando la tabla de frecuencia `freqLang`, podemos obtener el texto desencriptado:
 
@@ -61,9 +61,9 @@ Implementar la función: `decryptMessage( message, freqLang )`
 
 Tu programa debe imprimir el texto desencriptado en pantalla.
 
-Mantener las mayúsculas y minúsculas del mensaje, así como los saltos de linea.
+Mantener las mayúsculas y minúsculas del mensaje, así como los saltos de línea.
 
-El texto a desencriptar y la frecuencia de caracteres dependerá del último dígito de tu código de alumno:
+El texto a desencriptar y la frecuencia de carácteres dependerá del último dígito de tu código de alumno:
 
 - `0-1`: 
 ```py
